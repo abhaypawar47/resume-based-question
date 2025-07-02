@@ -505,15 +505,7 @@ ________________________________________________________________________________
     }
     ```
 
----
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 💡 Tips for Tool-Based Interview Questions
 
-* **Know the Basics Cold:** Be able to confidently execute and explain fundamental Git commands (`add`, `commit`, `push`, `pull`, `merge`, `rebase`, `branch`, `checkout`).
-* **Real-World Workflow:** Be prepared to describe a typical Git/GitHub workflow you've followed in a project, emphasizing collaboration aspects (e.g., feature branching, pull request reviews).
-* **Jupyter for Data Analysis:** For Jupyter, highlight your understanding of its interactive nature for data exploration, visualization, and rapid prototyping. Mention how it helps in creating reproducible reports.
-* **VS Code Productivity:** For VS Code, showcase how you leverage its features to enhance your productivity (e.g., specific extensions you use, custom settings, debugging techniques, keyboard shortcuts).
-* **Problem-Solving:** If asked about a problem, like a merge conflict, explain the steps you would take to diagnose and resolve it.
-* **"Why this tool?"**: Be ready to briefly articulate why you choose these tools over alternatives (e.g., Why Git vs. SVN? Why VS Code vs. Atom/Sublime?).
-````
 

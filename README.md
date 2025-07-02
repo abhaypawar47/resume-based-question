@@ -712,9 +712,7 @@ ________________________________________________________________________________
 
 Here’s a well-formatted **Markdown (.md)** interview questions and answers section for your **Sign Language Detection System** project, including the tech stack and key concepts, ready to paste into your GitHub repo:
 
----
 
-```markdown
 ## ✋ Sign Language Detection System – Interview Questions & Answers
 
 ### 📌 Project Summary  

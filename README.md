@@ -186,4 +186,124 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+____________________________________________________________________________
+## 🗄️ Backend & Databases Interview Questions (MySQL, MongoDB, PostgreSQL) |
+____________________________________________________________________________
+
+### 🐬 MySQL (10 Questions)
+
+1. **What is MySQL?**  
+   MySQL is an open-source relational database management system based on SQL (Structured Query Language).
+
+2. **What are the different types of JOINs in MySQL?**  
+   - INNER JOIN  
+   - LEFT JOIN (or LEFT OUTER JOIN)  
+   - RIGHT JOIN (or RIGHT OUTER JOIN)  
+   - FULL JOIN (not supported directly, use UNION of LEFT and RIGHT JOIN)
+
+3. **What is the difference between `WHERE` and `HAVING` clause?**  
+   - `WHERE` filters rows before aggregation.  
+   - `HAVING` filters groups after aggregation.
+
+4. **How does indexing work in MySQL?**  
+   Indexes speed up data retrieval. Common types include B-tree, Full-text, and Hash indexes.
+
+5. **What is normalization?**  
+   The process of organizing data to reduce redundancy and improve data integrity. Includes forms like 1NF, 2NF, 3NF.
+
+6. **What is a primary key vs foreign key?**  
+   - Primary key: uniquely identifies a row.  
+   - Foreign key: a reference to a primary key in another table.
+
+7. **What is ACID in databases?**  
+   - Atomicity, Consistency, Isolation, Durability — properties ensuring reliable transactions.
+
+8. **Difference between `TRUNCATE`, `DELETE`, and `DROP`?**  
+   - `DELETE`: removes specific rows.  
+   - `TRUNCATE`: removes all rows, faster.  
+   - `DROP`: deletes the table structure entirely.
+
+9. **How do you prevent SQL injection?**  
+   Use prepared statements, parameterized queries, and ORM libraries.
+
+10. **What is a stored procedure?**  
+    A saved SQL block that can be reused. Can contain logic and parameters.
+
+---
+
+### 🍃 MongoDB (10 Questions)
+
+11. **What is MongoDB?**  
+    MongoDB is a NoSQL document database that stores data in flexible, JSON-like documents (BSON).
+
+12. **What is a document in MongoDB?**  
+    A document is a key-value pair structure similar to JSON. Example:  
+    ```json
+    { "name": "John", "age": 30 }
+    ```
+
+13. **Difference between MongoDB and MySQL?**  
+    - MongoDB: schema-less, document-based.  
+    - MySQL: schema-based, relational.
+
+14. **What is a collection in MongoDB?**  
+    Equivalent to a table in SQL. It holds a group of related documents.
+
+15. **What is indexing in MongoDB?**  
+    Improves query performance. Common indexes: single field, compound, text, geospatial.
+
+16. **What are MongoDB aggregation pipelines?**  
+    A series of stages (`$match`, `$group`, `$sort`, etc.) to process documents and compute results.
+
+17. **What is the difference between `find()` and `aggregate()`?**  
+    - `find()` is for basic queries.  
+    - `aggregate()` is for advanced data processing and transformations.
+
+18. **What are replicas in MongoDB?**  
+    Replica sets provide redundancy and high availability. Includes primary and secondary nodes.
+
+19. **How do you ensure data consistency in MongoDB?**  
+    By using replica sets, write concerns, and transactions (since v4.0).
+
+20. **What is sharding in MongoDB?**  
+    Distributes data across multiple machines for horizontal scaling.
+
+---
+
+### 🐘 PostgreSQL (10 Questions)
+
+21. **What is PostgreSQL?**  
+    PostgreSQL is an advanced, open-source object-relational database known for standards compliance and extensibility.
+
+22. **How is PostgreSQL different from MySQL?**  
+    PostgreSQL supports advanced features like full-text search, custom data types, and better compliance with SQL standards.
+
+23. **What is a CTE in PostgreSQL?**  
+    Common Table Expression: a temporary result set used within `WITH` clauses for readability and modular queries.
+
+24. **What are some data types unique to PostgreSQL?**  
+    - `JSON`, `JSONB`  
+    - `ARRAY`, `HSTORE`, `UUID`, `ENUM`, `CIDR`
+
+25. **Explain `SERIAL` and `BIGSERIAL`.**  
+    Auto-incrementing integer types, similar to `AUTO_INCREMENT` in MySQL.
+
+26. **How does indexing differ in PostgreSQL?**  
+    Supports B-tree, Hash, GIN, GiST, BRIN indexes for various use cases.
+
+27. **What is a window function in PostgreSQL?**  
+    Performs a calculation across a set of rows related to the current row.  
+    Example: `ROW_NUMBER()`, `RANK()`, `LEAD()`, `LAG()`
+
+28. **What is `VACUUM` in PostgreSQL?**  
+    Reclaims storage by removing obsolete row versions created by updates/deletes.
+
+29. **What is a trigger in PostgreSQL?**  
+    A function that automatically executes in response to certain table events (INSERT, UPDATE, DELETE).
+
+30. **How do you manage JSON data in PostgreSQL?**  
+    PostgreSQL supports `JSON` and `JSONB` types with powerful query and indexing capabilities.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
